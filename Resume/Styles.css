@@ -1,0 +1,66 @@
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   width: 90%;
+   margin-inline: auto;
+   margin-bottom: 1vh;
+   height: 6vh;
+   text-align: center;
+   background-color: white;
+   transition: background-color 0.1s ease;
+   border: transparent;
+   text-decoration: none;
+ }
+ .button:hover {
+   background-color: rgb(215, 219, 221);
+ }
+ .heroContainer {
+   padding-top: 7vh;
+   position: relative;
+   width: 100%;
+   height: 53vh;
+   overflow: hidden;
+   margin-bottom: 33vh;
+ }
+ .heroImage {
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 0;
+ }
+ .heroText {
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translate(0%, -50%);
+   z-index: 1000;
+   font-family: 'Trebuchet MS', monospace;
+   font-weight: bold;
+   text-align: center;
+   font-size: 8vw;
+   user-select: none;
+   text-shadow: 2px 2px 40px rgba(255, 255, 255, 0.125);
+ }
+ .Container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color:#ffffff;
+  padding: 1%;
+  display: flex;
+  align-items: flex-start;
+ }
+ .resumeContainer {
+  width: 35%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 0%;
+  background-color:#ebeff0;
+  box-shadow: 4px 4px 4px #00000044;
+  padding: 1%;
+ }
